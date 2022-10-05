@@ -281,6 +281,13 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
+<h2 id="registration">Registration</h2>
+
+<p><strong>Some adblockers block the registration window. If you do not see the
+  registration box below, please check your adblocker settings.</strong></p>
+
+<iframe src="https://www.eventbrite.com/tickets-external?eid=433110273487&ref=etckt" frameborder="0" width="100%" height="350px" scrolling="auto">
+</iframe>
 
 {% comment %}
 Collaborative Notes
