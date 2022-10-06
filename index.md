@@ -286,9 +286,45 @@ Everyone who participates in Carpentries activities is required to conform to th
 <p><strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong></p>
 
-<iframe src="https://www.eventbrite.com/tickets-external?eid=433110273487&ref=etckt" frameborder="0" width="100%" height="350px" scrolling="auto">
-</iframe>
+<button id="eventbrite-widget-modal-trigger-433110273487" type="button">Register for GitHub Day (Tuesday, October 18)</button>
+<br/>
+<br/>
+<button id="eventbrite-widget-modal-trigger-433226300527" type="button">Register for OpenRefine Day (Wednesday, October 19)</button>
+<br/>
+<br/>
+<button id="eventbrite-widget-modal-trigger-433229309527" type="button">Register for R Days (Tuesday and Wednesday, October 25 and 26)</button>
 
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '433110273487',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-433110273487',
+        onOrderComplete: exampleCallback
+    });
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '433226300527',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-433226300527',
+        onOrderComplete: exampleCallback
+    });
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '433229309527',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-433229309527',
+        onOrderComplete: exampleCallback
+    });
+</script>
+
+<hr/>
 {% comment %}
 Collaborative Notes
 
