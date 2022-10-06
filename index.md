@@ -283,8 +283,7 @@ Everyone who participates in Carpentries activities is required to conform to th
 
 <h2 id="registration">Registration</h2>
 
-<p><strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong></p>
+<p>We encourage learners to sign up for all 3 lessons (GitHub, OpenRefine, and R), but we are splitting up registration so that learners can sign up for the lessons that fit into their busy schedules. <strong>Registration for all 3 lessons will open to the Smithsonian community on Tuesday, October 11, at 10AM.</strong></p>
 
 <button id="eventbrite-widget-modal-trigger-433110273487" type="button">Register for GitHub Day (Tuesday, October 18)</button>
 <br/>
