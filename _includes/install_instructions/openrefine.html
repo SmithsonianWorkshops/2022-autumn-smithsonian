@@ -8,13 +8,32 @@
 
   <div>
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+      <li role="presentation" class="active"><a data-os="siwindows" href="#openrefine-siwindows" aria-controls="SIWindows" role="tab" data-toggle="tab">SI-Issued Windows</a></li>
+      <li role="presentation"><a data-os="simacos" href="#openrefine-simacos" aria-controls="SIMacOS" role="tab" data-toggle="tab">SI-Issued Mac</a></li>
+      <li role="presentation"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Non-SI Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#openrefine-macos" aria-controls="MacOS" role="tab" data-toggle="tab">Non-SI MacOS</a></li>
     </ul>
 
     <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
+      <article role="tabpanel" class="tab-pane active" id="openrefine-siwindows">
+        <ol>
+          <li>Open Software Center, click on OpenRefine, and then click Install.</li>
+          <li>Check the Desktop for an OpenRefine icon. If it is not there, you may need 
+            to restart your computer.
+          </li>
+          <li>If you get a Windows Defender warning about running the software, select 
+            'More Info', then select 'Run Anyway'.
+          </li>
+        </ol>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="openrefine-simacos">
+        <li>Open the Self Service app, click on the Utilities category, and then click Install
+          under the OpenRefine icon.</li>
+       <li>Check the Desktop for an OpenRefine icon. If it is not there, you may need 
+         to restart your computer.
+       </li>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="openrefine-windows">
         <ol>
           <li>
             Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
