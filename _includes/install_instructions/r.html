@@ -17,13 +17,29 @@
 
   <div>
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+      <li role="presentation" class="active"><a data-os="siwindows" href="#rstudio-siwindows" aria-controls="SIWindows" role="tab" data-toggle="tab">SI-Issued Windows</a></li>
+      <li role="presentation"><a data-os="simacos" href="#rstudio-simacos" aria-controls="SIMacOS" role="tab" data-toggle="tab">SI-Issued Mac</a></li>
+      <li role="presentation"><a data-os="windows" href="#rstudio-windows" aria-controls="Windows" role="tab" data-toggle="tab">Non-SI Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#rstudio-macos" aria-controls="MacOS" role="tab" data-toggle="tab">Non-SI MacOS</a></li>
+      <li role="presentation"><a data-os="browser" href="#rstudio-browser" aria-controls="browser" role="tab" data-toggle="tab">Web Browser</a></li>
     </ul>
 
     <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="rstats-windows">
+      <article role="tabpanel" class="tab-pane active" id="rstudio-siwindows">
+        <ol>
+          <li>Open Software Center, click on R, and then click Install.</li>
+          <li>After R is installed via the Software Center, click on the RStudio icon, and install RStudio.
+          </li>
+        </ol>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="rstudio-simacos">
+        <li>Open the Self Service app, click on the Utilities category, and then click Install
+          under the OpenRefine icon.</li>
+       <li>Check the Desktop for an OpenRefine icon. If it is not there, you may need 
+         to restart your computer.
+       </li>
+      </article>
+      <article role="tabpanel" class="tab-pane" id="rstudio-windows">
         <p>
           Install R by downloading and running
           <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
@@ -42,7 +58,7 @@
         </div>
         </div>
       </article>
-      <article role="tabpanel" class="tab-pane" id="rstats-macos">
+      <article role="tabpanel" class="tab-pane" id="rstudio-macos">
         <p>
           Install R by downloading and running
           <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
@@ -57,16 +73,13 @@
         </div>
         </div>
       </article>
-      <article role="tabpanel" class="tab-pane" id="rstats-linux">
+      <article role="tabpanel" class="tab-pane" id="rstudio-browser">
         <p>
-          Instructions for R installation on various Linux platforms (debian,
-          fedora, redhat, and ubuntu) can be found at
-          <https://cran.r-project.org/bin/linux/>. These will instruct you to
-          use your package manager (e.g. for Fedora run
-          <code>sudo dnf install R</code> and for Debian/Ubuntu, add a ppa
-          repository and then run <code>sudo apt-get install r-base</code>).
-          Also, please install the
-          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+          If you ran into any difficulty installing R or RStudio on your machine, we have a browser-based 
+          back-up solution that will run at this link: 
+          <a href="https://mybinder.org/v2/gh/SmithsonianWorkshops/binders/rstudio?urlpath=rstudio" rel="nofollow" target="_blank">
+            <img src="https://camo.githubusercontent.com/581c077bdbc6ca6899c86d0acc6145ae85e9d80e6f805a1071793dbe48917982/68747470733a2f2f6d7962696e6465722e6f72672f62616467655f6c6f676f2e737667" alt="Binder" data-canonical-src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;">
+          </a>
         </p>
       </article>
     </div>
